@@ -109,6 +109,7 @@ int main(){
     printf("Número de Pontos Turisticos: %d\n", pontosTurist_1);
     printf("Densidade Populacional: %.2f hab/km²\n", dencidadePopulacional_1);
     printf("PIB per Capita: %.2f reais\n", pibPerCapita_1);
+    printf("O Super Poder: %.2f \n", superPoder_1);
 
 
     // mostrando os dados da segunda carta
@@ -124,6 +125,7 @@ int main(){
     printf("Número de Pontos Turisticos: %d\n", pontosTurist_2);
     printf("Densidade Populacional: %.2f hab/km²\n", dencidadePopulacional_2);
     printf("PIB per Capita: %.2f reais\n", pibPerCapita_2);
+    printf("O Super Poder: %.2f \n", superPoder_2);
 
     return 0;
 }
