@@ -11,6 +11,10 @@ int main(){
     float area_1;
     float pib_1;
     int pontosTurist_1;
+    float dencidadePopulacional_1;
+    int pontosTurist_1;
+    float pibPerCapita_1;
+    float superPoder_1;
 
     // declaração das variaveis da segunda carta
     char estado_2;
@@ -20,6 +24,9 @@ int main(){
     float area_2;
     float pib_2;
     int pontosTurist_2;
+     float dencidadePopulacional_2;
+    float pibPerCapita_2;
+    float superPoder_2;
     
     // recebendo os dados da primeira carta
     printf("--------------------------------------------- \n");
