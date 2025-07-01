@@ -82,12 +82,19 @@ int main(){
 
     // resolvendo desafio nivel aventureiro
     //carta 1
-    float dencidadePopulacional_1 = populacao_1 / area_1;
-    float pibPerCapita_1 = pib_1 / populacao_1;
+    dencidadePopulacional_1 = populacao_1 / area_1;
+    pibPerCapita_1 = pib_1 / populacao_1;
 
     //carta 2
-    float dencidadePopulacional_2 = populacao_2 / area_2;
-    float pibPerCapita_2 = pib_2 / populacao_2;    
+    dencidadePopulacional_2 = populacao_2 / area_2;
+    pibPerCapita_2 = pib_2 / populacao_2;    
+
+    //resolvendo desafio nível mestre
+    //carta 1
+    superPoder_1 = (float) populacao_1 + area_1 + pib_1 + pontosTurist_1 + pibPerCapita_1 + (area_1 / populacao_1);
+
+    //carta 2
+    superPoder_2 = (float) populacao_2 + area_2 + pib_2 + pontosTurist_2 + pibPerCapita_2 + (area_2 / populacao_2);
 
     // mostrando os dados da primeira carta
     printf("--------------------------------------------- \n");
