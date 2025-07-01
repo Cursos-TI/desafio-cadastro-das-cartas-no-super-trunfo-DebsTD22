@@ -73,6 +73,15 @@ int main(){
     printf("Quantos pontos turisticos tem a cidade: "); 
     scanf("%d", &pontosTurist_2); // Recebendo quantidade de pontos turisticos
 
+    // resolvendo desafio nivel aventureiro
+    //carta 1
+    float dencidadePopulacional_1 = populacao_1 / area_1;
+    float pibPerCapita_1 = pib_1 / populacao_1;
+
+    //carta 2
+    float dencidadePopulacional_2 = populacao_2 / area_2;
+    float pibPerCapita_2 = pib_2 / populacao_2;    
+
     // mostrando os dados da primeira carta
     printf("--------------------------------------------- \n");
     printf("             >>>>> Carta 1 <<<<< \n");
@@ -84,6 +93,9 @@ int main(){
     printf("Área: %.2f km²\n", area_1);
     printf("PIB: %.2f bilhões de reais\n", pib_1);
     printf("Número de Pontos Turisticos: %d\n", pontosTurist_1);
+    printf("Densidade Populacional: %.2f hab/km²\n", dencidadePopulacional_1);
+    printf("PIB per Capita: %.2f reais\n", pibPerCapita_1);
+
 
     // mostrando os dados da segunda carta
     printf("--------------------------------------------- \n");
@@ -96,6 +108,8 @@ int main(){
     printf("Área: %.2f km²\n", area_2);
     printf("PIB: %.2f bilhões de reais\n", pib_2);
     printf("Número de Pontos Turisticos: %d\n", pontosTurist_2);
+    printf("Densidade Populacional: %.2f hab/km²\n", dencidadePopulacional_2);
+    printf("PIB per Capita: %.2f reais\n", pibPerCapita_2);
 
     return 0;
 }
